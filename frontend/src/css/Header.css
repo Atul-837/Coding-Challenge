@@ -1,0 +1,23 @@
+.navbar{
+    background-color: black !important;
+    max-height: 110px;
+}
+
+.navbar-brand{
+    max-height: 70px;
+    margin-left: 130px;
+}
+
+.input{
+    margin-right: 250px;
+}
+
+.input-box{
+    background-color: black !important;
+    color: aliceblue !important;
+    border-color: aliceblue !important;
+}
+
+.search{
+    border-color: aliceblue !important;
+}

@@ -3,6 +3,8 @@
 # FIRSTLY, INSTRUCTIONS TO CONFIGURE THE FRONTEND i.e. REACT
 ## PLEASE FOLLOW SOME BASIC STEPS TO RUN AND BUILD THE FRONTEND APPLICATION:
 
+### PLEASE PUT FRONTEND FOLDER/REPO INSIDE BACKEND AS PATHS FOR DOCKER CONTAINERS ARE SET UP ACCORDINGLY
+
 * Make sure npm/node.js installed on the system. Command is npm -v to check npm status
 * Filename: package.json contains all dependencies to build this project
 * Run command - npm install to install all necessary dependencies

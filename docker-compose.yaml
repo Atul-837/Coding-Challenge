@@ -1,19 +1,19 @@
 version: '3.8'
 services:
   springboot-app:
-    container_name: my-springboot-app
+    container_name: springboot-app
     ports:
       - 8090:8090
     build:
       context: .
       dockerfile: "Dockerfile"
 
-#  react-app:
-#    container_name: my-react-app
-#    build:
-#      context: "./frontend"
-#      dockerfile: "Dockerfile"
-#    volumes:
-#      - ./frontend/src:/app/src
-#    ports:
-#      - 3000:3000
+  react-app:
+    container_name: react-app
+    build:
+      context: "./frontend"
+      dockerfile: "Dockerfile"
+    volumes:
+      - ./frontend/src:/app/src
+    ports:
+      - 3000:3000

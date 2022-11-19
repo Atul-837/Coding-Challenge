@@ -1,0 +1,38 @@
+.file{
+    margin: 50px;
+    display: block;
+    text-align: -webkit-center;
+}
+
+.media-card{
+    min-width: 1050px !important; 
+    max-width: 1050px !important;
+    color: rgb(199, 208, 216);
+    text-align: center;
+    min-height: fit-content;
+    max-height: max-content;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.image{
+    max-width: 990px !important;
+}
+
+.error{
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.err{
+    background-color: black;
+    opacity: .9;
+    max-width: 300px !important;
+    min-height: 150px;
+    color: rgb(214, 217, 220);
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px;
+}
